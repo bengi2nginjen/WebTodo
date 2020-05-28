@@ -1,5 +1,5 @@
 <?php
-$servername = "database-1.cenzylrufou4.us-east-1.rds.amazonaws.com";
+$servername = "tugas4.cenzylrufou4.us-east-1.rds.amazonaws.com";
 $username = "root";
 $password = "pass1234";
 $database = "php_mysql_crud";

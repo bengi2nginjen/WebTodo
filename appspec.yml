@@ -1,0 +1,29 @@
+version: 0.0
+os: linux
+files:
+  - source: /database
+    destination: /var/www/html/
+  - source: /docs
+    destination: /var/www/html/
+  - source: /includes
+    destination: /var/www/html/
+  - source: /delete_task.php
+    destination: /var/www/html/
+  - source: /edit.php
+    destination: /var/www/html/
+  - source: /index.php
+    destination: /var/www/html/
+  - source: /save_task.php
+    destination: /var/www/html/
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server
+      timeout: 300
+      runas: root
