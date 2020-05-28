@@ -7,6 +7,8 @@ files:
     destination: /var/www/html/
   - source: /includes
     destination: /var/www/html/
+  - source: /db.php
+    destination: /var/www/html/
   - source: /delete_task.php
     destination: /var/www/html/
   - source: /edit.php
