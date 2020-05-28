@@ -1,6 +1,6 @@
 <?php include "db.php"; ?>
 
-<?php include('includes/header.php'); ?>
+<?php include('header.php'); ?>
 
 <main class="container p-4">
   <div class="row">
@@ -66,4 +66,4 @@
   </div>
 </main>
 
-<?php include('includes/footer.php'); ?>
+<?php include('footer.php'); ?>
