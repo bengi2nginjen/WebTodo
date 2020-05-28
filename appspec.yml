@@ -1,8 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: /database
-    destination: /var/www/html/
   - source: /docs
     destination: /var/www/html/
   - source: /includes
