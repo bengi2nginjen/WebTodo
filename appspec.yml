@@ -1,19 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /docs
-    destination: /var/www/html/
-  - source: /includes
-    destination: /var/www/html/
-  - source: /db.php
-    destination: /var/www/html/
-  - source: /delete_task.php
-    destination: /var/www/html/
-  - source: /edit.php
-    destination: /var/www/html/
-  - source: /index.php
-    destination: /var/www/html/
-  - source: /save_task.php
+  - source: /
     destination: /var/www/html/
 hooks:
   BeforeInstall:
