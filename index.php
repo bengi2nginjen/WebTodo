@@ -8,7 +8,7 @@
       <!-- MESSAGES -->
 
       <?php if (isset($_SESSION['message'])) { ?>
-      <h1>Coba baru push</h1>
+      <!-- <h1>Coba baru push</h1> -->
       <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
         <?= $_SESSION['message']?>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -21,7 +21,7 @@
       <div class="card card-body">
         <form action="save_task.php" method="POST">
           <div class="form-group">
-            <input type="text" name="title" class="form-control" placeholder="Task Title" autofocus>
+            <input type="text" name="title" class="form-control" placeholder="Task Title Bruh" autofocus>
           </div>
           <div class="form-group">
             <textarea name="description" rows="2" class="form-control" placeholder="Task Description"></textarea>
